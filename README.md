@@ -241,13 +241,12 @@ class NombreProveedor(OAuth2Login):
 
 ## Script de ejecución
 
-En este scipt `app.py` se encuentran las variables de entorno en app y las intancias de las clases de los proveedores.
+En este script `app.py` se encuentran las variables de entorno en app y las intancias de las clases de los proveedores.
 ```python
 # Se instancia cada una de clases con las configuraciones repectivas para cada proveerdor.
 
 google_login = GoogleLogin(app)
-linkedin_login = LinkedInLogin(app)
-facebook_login = FacebookLogin(app)
+
 
 ```
 

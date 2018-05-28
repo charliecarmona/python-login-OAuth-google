@@ -334,37 +334,7 @@ def login_failure(e):
 
 Esta funciones se ejecutan al final del los pasos de protocolo, dependiendo de su flujo exitoso o fallido, cada proveedor tiene la opción de responder a su manera.
 
-## Resultados
-
-En las siguientes capturas se muestra el resultado de cada paso para cada uno de los proveedores, véase los rectangulos resaltados con rojo, alli se puede identificar en las URLs algunos de los parámetros y valores generados por las funciones expuestas en este documento.
-
-Respuesta URL raíz:
-
-![Imgur](http://i.imgur.com/nsTZ9X9.png)
-- **Google**
-
-Redirección a Login con **Google**, en la URL de los rectángulos se pueden apreciar los parámetros generados por la función authorization_url. 
-![Imgur](http://i.imgur.com/JhMvblS.png)
-
-Resultado con la información del usuario
-
-![Imgur](http://i.imgur.com/9acILPY.png)
-
-- **Linkedin**
-
-![Imgur](http://i.imgur.com/Csojyii.png)
-
-Resultado con la información del usuario
-
-![Imgur](http://i.imgur.com/a9Vb89d.png)
-
-- **Facebook**
-
-![Imgur](http://i.imgur.com/PRmthqL.png)
-
-Resultado con la información del usuario
-
-![Imgur](http://i.imgur.com/PgocZu7.png)
+Para poder ejecutar escribimos en linea de comandos adentro de la carpe del proyecto: python app.py
 
 Nota y recomendaciones 
 

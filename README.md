@@ -51,60 +51,8 @@ Y abstraemos las configuraciones del API de Google en nuestra clase GoogleLogin 
 ```
 Con esto queda finalizada la configuración para hacer login con Google.
 
-**Linkedin**
 
-Ir a [Linkedin developers](https://www.linkedin.com/developer/), crear una nueva app, obtener las llaves respectivas y definir el callback URL para OAuth 2.0.
-
-![Imgur](http://i.imgur.com/RLWdR3b.png)
-```python
-os.environ["LINKEIND_LOGIN_CLIENT_ID"] = "tu_id_aqui"
-os.environ["LINKEIND_LOGIN_CLIENT_SECRET"] = "tu_token_aqui"
-```
-
-Abstraemos las configuraciones del API en la clase LinkedInLogin.
-
-```python
- default_scope = (
-    "r_basicprofile,"
-    "r_emailaddress"
- )
- default_redirect_path = "/login/linkedin"
-
- auth_url = "https://www.linkedin.com/oauth/v2/authorization"
- token_url = "https://www.linkedin.com/oauth/v2/accessToken"
- profile_url = "https://api.linkedin.com/v1/people/~?format=json"
-```
-
-**Facebook**
-
-Ir a [Facebook Develoers](), crear una app y obtener las llaves respectivas. 
-
-![Imgur](http://i.imgur.com/t2WoGKa.png)
-
-```python
-os.environ["FACEBOOK_LOGIN_CLIENT_ID"] = "tu_id_aqui"
-os.environ["FACEBOOK_LOGIN_CLIENT_SECRET"] = "tu_token_aqui"
-```
-
-Luego configuramos el Facebook Login.
-
-![Imgur](http://i.imgur.com/YRIiPTm.png)
-
-Y finalmente abstraemos las configuraciones del API en la clase FacebookLogin.
-
-```python
-default_scope = (
-  "public_profile"
-)
-
-default_redirect_path = "/login/facebook"
-
-auth_url = "https://www.facebook.com/dialog/oauth"
-token_url = "https://graph.facebook.com/oauth/access_token"
-profile_url = "https://graph.facebook.com/me?"
-```
-
-## Diseño
+Diseño
 
 La manera en que funciona, es permtir configurar los endpoints para que los usuarios hagan login usando los proveedores mencionados (Google, LinkedIn, Facebook). El programa obtiene un token válido para realizar peticiones a las APIs con el que se puede obtener información de un servidor de recursos. En la **Fig.1** se ilustra el diagrama del funcionamiento de este protocolo.
 

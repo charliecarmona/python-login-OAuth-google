@@ -22,19 +22,13 @@ es un framework pequeño, pero extensible. La idea de Flask es que en una sola p
 
 ## Configuracion de API's##
 
-Lo primero que hicimos fué registrar una aplicacion con cada proveedor, obtener las configuraiones y llaves de acceso.
+Lo primero que hicimos fué registrar una aplicacion en el proveedor, obtener las configuraiones y llaves de acceso.
 
-**Google**
-
-Ir a [Google APIs](https://console.developers.google.com/apis/credentials) seleccionar "OAuth cliente Id" para generar tokens de acceso al API.
-
-![3](http://i.imgur.com/1Gdtsmv.png)
 
 Definir un nombre, generara dos llaves: una id de cliente y un token de autenticación como en la imágen indicada.
 
 Luego, agregar una URI autorizada para hacer la redirección del login.
 
-![4](http://i.imgur.com/opIkoVj.png)
 
 En app.py definimos las variables de entorno respectivas:
 

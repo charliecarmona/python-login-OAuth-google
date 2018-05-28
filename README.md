@@ -25,11 +25,17 @@ Configuracion de la API
 Lo primero que hicimos fué registrar una aplicacion en el proveedor, obtener las configuraiones y llaves de acceso debemos resaltar 
 un punto muy importante en este caso el proveedor es google pero tambien se podrian utilizar proveedores como por ejemplo Facebook.
 
+**Google**
+
+Ir a [Google APIs](https://console.developers.google.com/apis/credentials) seleccionar "OAuth cliente Id" para generar tokens de acceso al API.
+
+![3](http://i.imgur.com/1Gdtsmv.png)
 
 Definir un nombre, generara dos llaves: una id de cliente y un token de autenticación como en la imágen indicada.
 
 Luego, agregar una URI autorizada para hacer la redirección del login.
 
+![4](http://i.imgur.com/opIkoVj.png)
 
 En app.py definimos las variables de entorno respectivas:
 

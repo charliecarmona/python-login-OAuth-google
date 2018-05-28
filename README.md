@@ -27,7 +27,7 @@ un punto muy importante en este caso el proveedor es google pero tambien se podr
 
 **Google**
 
-Ir a [Google APIs](https://console.developers.google.com/apis/credentials) seleccionar "OAuth cliente Id" para generar tokens de acceso al API.
+Ir a [Google API Console](https://console.developers.google.com/apis/credentials) seleccionar "OAuth cliente Id" para generar tokens de acceso al API.
 
 ![3](http://i.imgur.com/1Gdtsmv.png)
 

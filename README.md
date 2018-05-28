@@ -22,7 +22,8 @@ es un framework pequeño, pero extensible. La idea de Flask es que en una sola p
 
 ## Configuracion de API's##
 
-Lo primero que hicimos fué registrar una aplicacion en el proveedor, obtener las configuraiones y llaves de acceso.
+Lo primero que hicimos fué registrar una aplicacion en el proveedor, obtener las configuraiones y llaves de acceso debemos resaltar 
+un punto muy importante en este caso el proveedor es google pero tambien se podrian utilizar proveedores como por ejemplo Facebook.
 
 
 Definir un nombre, generara dos llaves: una id de cliente y un token de autenticación como en la imágen indicada.

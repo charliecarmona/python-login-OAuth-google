@@ -5,7 +5,7 @@ OAuth formulario de ingreso utlizando google cloud
 
 
 
-## Requerimientos
+Requerimientos
 
 - flask
 - requests-oauthlib
@@ -20,7 +20,7 @@ lo anterior instalara oautlib libreria para utilizar el servicio de google
 tamien se instalara flask
 es un framework pequeño, pero extensible. La idea de Flask es que en una sola página pueda caberte una aplicación web
 
-## Configuracion de API's##
+Configuracion de la API
 
 Lo primero que hicimos fué registrar una aplicacion en el proveedor, obtener las configuraiones y llaves de acceso debemos resaltar 
 un punto muy importante en este caso el proveedor es google pero tambien se podrian utilizar proveedores como por ejemplo Facebook.

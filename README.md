@@ -66,7 +66,7 @@ La manera en que funciona, es permtir configurar los endpoints para que los usua
 **Fig.1** Diagrama alto nivel protocolo OAuth 2.0
 ![Fig.1](http://i.imgur.com/RsKyg2I.png)
 
-El digrama muestra el funcionamiento de alto nivel, mejor ejemplificaado se puede ver un caso de uso del lado usuario en el siguiente diagrama.
+El digrama muestra el funcionamiento de alto nivel, mejor ejemplificado se puede ver un caso de uso del lado usuario en el siguiente diagrama.
 
 **Fig.2** Diagrama de caso de uso Login con OAuth 2.0
 
@@ -300,7 +300,7 @@ Ejemplo de error:
 
 SyntaxError: Non-ASCII character '\xc3'
 
-Solucion:
+Solución:
 
 Agrega esta linea al inicio de tu programa
 # -*- coding: utf-8 -*-

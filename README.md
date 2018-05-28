@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 lo anterior instalara oautlib libreria para utilizar el servicio de google
 
-tamien se instalara flask
+tambien se instalara flask
 es un framework pequeño, pero extensible. La idea de Flask es que en una sola página pueda caberte una aplicación web
 
 Configuracion de la API
